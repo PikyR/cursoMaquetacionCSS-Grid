@@ -1,13 +1,12 @@
-header 
-  nav
-    ul 
-      li: a(href="/") Face
-      li: a(href="/") Twitter
-      li: a(href="/") Insta
-      li: a(href="/") Linkedin
-      li: a(href="/") Youtube
-  nav
-    section 
-      a: img(src="", alt="logo")
-    section 
-      a(href="about-me.html") Sobre mí
+header.main-header
+  nav.social-nav
+    ul.social-nav__list
+      li.social-nav__item: a.social-nav__link(href="/") Face
+      li.social-nav__item: a.social-nav__link(href="/") Twitter
+      li.social-nav__item: a.social-nav__link(href="/") Insta
+      li.social-nav__item: a.social-nav__link(href="/") Linkedin
+      li.social-nav__item: a.social-nav__link(href="/") Youtube
+  
+  nav.main-nav
+    section.main-nav__item: a.main-nav__logo: img(src="", alt="logo")
+    section.main-nav__item: a.main-nav__link(href="about-me.html") Sobre mí
