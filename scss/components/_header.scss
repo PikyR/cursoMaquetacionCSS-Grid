@@ -16,19 +16,28 @@
   background-color: $color-primary;
   
   &__list {
-    width: 300px;
+    width: 300;
     height: auto;
     margin-right: 50px;
     display: flex;
+    gap: 10px;
     justify-content: space-between;
     align-items: center;
     list-style: none;
   }
-  &__item {
-    display: inline;
-  }
+  
   &__link {
     text-decoration: none;
-    color: $color-dark;
+    
+    & span {
+      color: $color-light;
+    }
   }
+}
+
+.main-nav {
+
+  &__item {}
+  &__logo {}
+  &__link {}
 }

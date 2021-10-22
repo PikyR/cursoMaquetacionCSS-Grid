@@ -27,20 +27,20 @@ body {
   background-color: #47CFAC;
 }
 .social-nav__list {
-  width: 300px;
+  width: 300;
   height: auto;
   margin-right: 50px;
   display: flex;
+  gap: 10px;
   justify-content: space-between;
   align-items: center;
   list-style: none;
 }
-.social-nav__item {
-  display: inline;
-}
 .social-nav__link {
   text-decoration: none;
-  color: #000000;
+}
+.social-nav__link span {
+  color: #FFFFFF;
 }
 
 /*# sourceMappingURL=styles.css.map */
