@@ -12,6 +12,14 @@ body {
   font-size: 1.6rem;
 }
 
+.main-container {
+  min-width: 320px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .main-header {
   width: 100%;
   display: grid;
@@ -60,6 +68,35 @@ body {
   text-decoration: none;
   color: #000000;
   border-bottom: 1px solid #000000;
+}
+
+.home {
+  width: 100%;
+  height: calc(100vh - 140px);
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  justify-items: center;
+  background-image: url(../assets/img/Cover.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.home__text {
+  width: 60%;
+  align-self: center;
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: center;
+  letter-spacing: 10px;
+  color: #FFFFFF;
+}
+.home__button {
+  height: fit-content;
+  padding: 15px 30px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.8rem;
+  background-color: #47CFAC;
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -1,6 +1,14 @@
+// Colors
 $color-dark: #000000;
 $color-light: #FFFFFF;
 $color-primary: #47CFAC;
+
+// Font sizes
+$sm: 1.4rem;
+$md: 1.6rem;
+$lg: 1.8rem;
+$xl: 2rem;
+$xxl: 3rem;
 
 * {
   margin: 0;
@@ -14,4 +22,12 @@ html {
 
 body {
   font-size: 1.6rem;
+}
+
+.main-container {
+  min-width: 320px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }

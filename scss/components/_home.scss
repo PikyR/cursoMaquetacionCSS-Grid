@@ -1,0 +1,31 @@
+.home{
+  width: 100%;
+  height: calc(100vh - 140px);
+  
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  justify-items: center;
+
+  background-image: url(../assets/img/Cover.png);
+  background-repeat: no-repeat;
+  background-size: cover ;
+  background-position: center;
+  
+  &__text {
+    width: 60%;
+    align-self: center;
+    font-weight: bold;
+    font-size: $xl;
+    text-align: center;
+    letter-spacing: 10px;
+    color: $color-light;
+  }
+  &__button {
+    height: fit-content;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: $lg;
+    background-color: $color-primary;
+  }
+}
