@@ -4,8 +4,8 @@ $color-light: #FFFFFF;
 $color-primary: #47CFAC;
 
 // Font families
+$font-primary: 'Roboto Mono', monospace;
 $font-roboto: 'Roboto', sans-serif;
-$font-titles: 'Roboto Mono', monospace;
 $font-roboto-slab: 'Roboto Slab', serif;
 
 // Font sizes
@@ -27,6 +27,7 @@ html {
 
 body {
   font-size: 1.6rem;
+  font-family: $font-primary;
 }
 
 .main-container {

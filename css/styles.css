@@ -10,6 +10,7 @@ html {
 
 body {
   font-size: 1.6rem;
+  font-family: "Roboto Mono", monospace;
 }
 
 .main-container {
@@ -85,7 +86,7 @@ body {
   width: 60%;
   align-self: center;
   font-family: "Roboto Mono", monospace;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 2rem;
   text-align: center;
   letter-spacing: 10px;
@@ -97,6 +98,7 @@ body {
   text-decoration: none;
   font-weight: bold;
   font-size: 1.8rem;
+  color: #000000;
   background-color: #47CFAC;
 }
 
