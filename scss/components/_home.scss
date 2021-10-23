@@ -6,7 +6,7 @@
   grid-template-rows: 1fr 1fr;
   justify-items: center;
 
-  background-image: url(../assets/img/Cover.png);
+  background-image: url('../assets/img/Cover.png');
   background-repeat: no-repeat;
   background-size: cover ;
   background-position: center;
@@ -14,6 +14,7 @@
   &__text {
     width: 60%;
     align-self: center;
+    font-family: $font-titles;
     font-weight: bold;
     font-size: $xl;
     text-align: center;
