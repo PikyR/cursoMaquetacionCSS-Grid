@@ -1,4 +1,23 @@
 extends components/templates.pug
 
 block content
-  //- WIP
+  main.blogs-container
+    section.primary-blog
+      .primary-blog__header
+        h3.primary-blog__section-title
+        figure.primary-blog__img
+          img(src="", alt="")
+      .primary-blog__preview
+        h2.primary-blog__title 
+        p.primary-blog__content 
+        a.blogs__button(href="#")
+
+    section.blogs
+      h3.blogs__title 
+      //- mixin
+      article.blog-post
+        img.blog-post__thumbnail(src="", alt="")
+        h4.blog-post__title
+        p.blog-post__content
+        a.blogs__button(href="#")
+  include components/footers.pug
