@@ -102,4 +102,24 @@ body {
   background-color: #47CFAC;
 }
 
+.primary-blog {
+  padding: 20px 50px;
+  background-color: #E6E9ED;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 2fr;
+}
+.primary-blog__left {
+  grid-column: 1;
+}
+.primary-blog__thumbnail img {
+  width: 100%;
+}
+.primary-blog__info {
+  grid-column: 2;
+}
+.primary-blog__title {
+  margin-bottom: 35px;
+}
+
 /*# sourceMappingURL=styles.css.map */

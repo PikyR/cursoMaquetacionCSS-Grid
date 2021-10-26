@@ -1,0 +1,40 @@
+.blogs-container {}
+
+.primary-blog {
+  padding: 20px 50px;
+  background-color: $color-grey;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 2fr;
+  // column-gap: 40px;
+  
+  // left section
+  &__left {
+    grid-column: 1;
+  }  
+  &__category {
+    // margin-bottom: 20px;
+  }
+  &__thumbnail {
+
+    & img {
+      width: 100%;
+    }
+  }
+
+  // right section
+  &__info {
+    grid-column: 2;
+  }
+  &__title {
+    margin-bottom: 35px;
+  }
+  &__content {}
+}
+
+
+// .blogs {
+//   // display: grid;
+// }
+
+// .blog-post {}

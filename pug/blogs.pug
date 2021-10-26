@@ -2,16 +2,19 @@ extends components/templates.pug
 
 block content
   main.blogs-container
+    //- blog highlighted
     section.primary-blog
-      .primary-blog__header
-        h3.primary-blog__section-title
-        figure.primary-blog__img
-          img(src="", alt="")
-      .primary-blog__preview
-        h2.primary-blog__title 
-        p.primary-blog__content 
-        a.blogs__button(href="#")
-
+      //- left section 
+      h3.primary-blog__category Noticias
+      .primary-blog__left
+        figure.primary-blog__thumbnail
+          img(src="../assets/img/main-news-img.png", alt="thumbnail")
+      //- right section 
+      .primary-blog__info
+        h2.primary-blog__title Título del Blogpost
+        p.primary-blog__content Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique numquam ipsam dignissimos nesciunt consectetur, facilis optio aperiam ducimus perspiciatis voluptates!
+        a.blogs-button(href="#") Leer más
+    //- all blogs
     section.blogs
       h3.blogs__title 
       //- mixin
@@ -19,5 +22,6 @@ block content
         img.blog-post__thumbnail(src="", alt="")
         h4.blog-post__title
         p.blog-post__content
-        a.blogs__button(href="#")
+        a.blogs-button(href="#")
+  //- footer
   include components/footers.pug
