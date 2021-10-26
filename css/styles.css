@@ -112,14 +112,27 @@ body {
 .primary-blog__left {
   grid-column: 1;
 }
+.primary-blog__category {
+  margin-bottom: 20px;
+}
 .primary-blog__thumbnail img {
-  width: 100%;
+  width: 90%;
 }
 .primary-blog__info {
   grid-column: 2;
 }
 .primary-blog__title {
   margin-bottom: 35px;
+}
+
+.blogs {
+  display: grid;
+  padding: 0 50px 40px;
+}
+.blogs__title {
+  padding: 20px 0;
+  border-bottom: 1px solid #CDD2DA;
+  text-align: center;
 }
 
 /*# sourceMappingURL=styles.css.map */
