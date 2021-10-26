@@ -21,6 +21,21 @@ body {
   justify-content: center;
 }
 
+.blogs-button {
+  width: fit-content;
+  padding: 10px 15px;
+  border: 1px solid #47CFAC;
+  text-decoration: none;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: black;
+  cursor: pointer;
+}
+.blogs-button:hover {
+  background-color: #47CFAC;
+  color: #FFFFFF;
+}
+
 .main-header {
   width: 100%;
   display: grid;
@@ -119,9 +134,14 @@ body {
   width: 90%;
 }
 .primary-blog__info {
+  display: flex;
+  flex-flow: column nowrap;
   grid-column: 2;
 }
 .primary-blog__title {
+  margin-bottom: 35px;
+}
+.primary-blog__content {
   margin-bottom: 35px;
 }
 

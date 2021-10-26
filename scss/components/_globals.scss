@@ -40,4 +40,18 @@ body {
   justify-content: center;
 }
 
-// .blogs-button {}
+.blogs-button {
+  width: fit-content;
+  padding: 10px 15px;
+  border: 1px solid $color-primary;
+  text-decoration: none;
+  font-size: $sm;
+  font-weight: 700;
+  color: black;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $color-primary;
+    color: $color-light;
+  }
+}

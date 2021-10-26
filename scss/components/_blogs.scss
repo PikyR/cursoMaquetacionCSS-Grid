@@ -1,4 +1,4 @@
-.blogs-container {}
+// .blogs-container {}
 
 .primary-blog {
   padding: 20px 50px;
@@ -24,14 +24,17 @@
 
   // right section
   &__info {
+    display: flex;
+    flex-flow: column nowrap;
     grid-column: 2;
   }
   &__title {
     margin-bottom: 35px;
   }
-  // &__content {}
+  &__content {
+    margin-bottom: 35px;
+  }
 }
-
 
 .blogs {
   display: grid;
