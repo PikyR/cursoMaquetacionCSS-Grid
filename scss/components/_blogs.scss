@@ -38,13 +38,33 @@
 
 .blogs {
   display: grid;
+  grid-template-rows: 1fr auto auto auto;
+  grid-template-columns: auto auto auto;
   padding: 0 50px 40px;
 
   &__title {
     padding: 20px 0;
     border-bottom: 1px solid $color-dark-grey;
     text-align: center;
+    grid-row: 1;
+    grid-column: 1 / 4;
   }
 }
 
-// .blog-post {}
+.blog-post {
+  display: inline-block;
+  max-width: 100%;
+  padding: 10px;
+  margin-bottom: 35px;
+
+  &__thumbnail {
+    width: 100%;
+  }
+  &__title {
+    margin-top: 15px;
+    margin-bottom: 35px;
+  }
+  &__content {
+    margin-bottom: 35px;
+  }
+}

@@ -17,11 +17,12 @@ block content
     //- all blogs
     section.blogs
       h3.blogs__title Últimos posts
-      //- mixin
-      article.blog-post
-        img.blog-post__thumbnail(src="", alt="")
-        h4.blog-post__title
-        p.blog-post__content
-        a.blogs-button(href="#")
+      //- mixins
+      +blog-post("1.png", "Titulo del post")
+      +blog-post("2.png", "Titulo del post")
+      +blog-post("3.png", "Titulo del post")
+      +blog-post("2.png", "Titulo del post")
+      +blog-post("3.png", "Titulo del post")
+      +blog-post("1.png", "Titulo del post")
   //- footer
   include components/footers.pug

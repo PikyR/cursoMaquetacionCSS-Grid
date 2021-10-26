@@ -12,7 +12,7 @@
   background-position: center;
   
   &__text {
-    width: 60%;
+    width: 50%;
     align-self: center;
     font-family: $font-primary;
     font-weight: 700;
@@ -26,7 +26,7 @@
     padding: 15px 30px;
     text-decoration: none;
     font-weight: bold;
-    font-size: $lg;
+    font-size: $md;
     color: $color-dark;
     background-color: $color-primary;
   }

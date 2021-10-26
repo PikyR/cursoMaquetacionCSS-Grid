@@ -49,5 +49,10 @@
     text-decoration: none;    
     color: $color-dark;
     border-bottom: 1px solid $color-dark;
+
+    &:hover{
+      font-weight: 700;
+      border-bottom: 1px solid $color-primary;
+    }
   }
 }
