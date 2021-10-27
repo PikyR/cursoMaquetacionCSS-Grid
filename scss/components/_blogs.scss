@@ -10,11 +10,10 @@
   background-color: $color-grey;
   
   &__container {
-    max-width: 980px;
-    margin: 0 auto;
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 2fr;
+    @include max-width-lg-center;
   }
   
   // left section
@@ -46,11 +45,11 @@
 }
 
 .blogs {
-  max-width: 980px;
   display: grid;  
   grid-template-rows: 1fr auto auto auto;
   grid-template-columns: auto auto auto;
   padding: 0 50px 40px;
+  @include max-width-lg-center;
 
   &__title {
     padding: 20px 0;

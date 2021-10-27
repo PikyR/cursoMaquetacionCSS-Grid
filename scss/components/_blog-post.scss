@@ -1,0 +1,31 @@
+.blog-post {
+  padding: 0 50px 40px;
+  
+  &__image {
+    max-height: 600px;
+    margin-bottom: 40px;
+    overflow: hidden;
+    
+    & img {
+      width: 100%;
+    }
+  }
+  
+  &__container {
+    @include max-width-lg-center;
+  }
+  &__category {
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid $color-dark-grey;
+  }
+  &__content {
+    & p {
+      margin-bottom: 15px;
+    }
+  }
+  &__title {
+    margin-bottom: 20px;
+    font-size: $xxl;
+  }
+}
