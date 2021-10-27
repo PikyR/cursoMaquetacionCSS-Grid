@@ -47,7 +47,6 @@
 
 .blogs {
   max-width: 980px;
-  // margin: 0 auto;
   display: grid;  
   grid-template-rows: 1fr auto auto auto;
   grid-template-columns: auto auto auto;
@@ -62,7 +61,7 @@
   }
 }
 
-.blog-post {
+.blogs-item {
   display: inline-block;
   max-width: 100%;
   padding: 10px;

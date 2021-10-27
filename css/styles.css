@@ -189,20 +189,20 @@ body {
   grid-column: 1/4;
 }
 
-.blog-post {
+.blogs-item {
   display: inline-block;
   max-width: 100%;
   padding: 10px;
   margin-bottom: 35px;
 }
-.blog-post__thumbnail {
+.blogs-item__thumbnail {
   width: 100%;
 }
-.blog-post__title {
+.blogs-item__title {
   margin-top: 15px;
   margin-bottom: 35px;
 }
-.blog-post__content {
+.blogs-item__content {
   margin-bottom: 35px;
 }
 
