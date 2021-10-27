@@ -135,9 +135,20 @@ body {
   background-color: #47CFAC;
 }
 
+.blogs-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .primary-blog {
+  width: 100%;
   padding: 20px 50px;
   background-color: #E6E9ED;
+}
+.primary-blog__container {
+  max-width: 980px;
+  margin: 0 auto;
   display: grid;
   grid-template-columns: 2fr 1fr;
   grid-template-rows: 2fr;
@@ -164,6 +175,7 @@ body {
 }
 
 .blogs {
+  max-width: 980px;
   display: grid;
   grid-template-rows: 1fr auto auto auto;
   grid-template-columns: auto auto auto;
