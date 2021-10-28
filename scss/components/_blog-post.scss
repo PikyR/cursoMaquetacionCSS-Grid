@@ -4,10 +4,13 @@
   &__image {
     max-height: 600px;
     margin-bottom: 40px;
+    display: flex;
+    align-items: center;
     overflow: hidden;
     
     & img {
       width: 100%;
+      height: fit-content;
     }
   }
   

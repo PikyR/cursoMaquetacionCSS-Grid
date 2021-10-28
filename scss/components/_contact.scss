@@ -1,0 +1,43 @@
+.contact {
+  width: 100%;
+  padding: 50px 0;
+  display: grid;
+  grid-template-columns: min-content min-content;
+  justify-content: center;
+  column-gap: 100px;
+  background-color: $color-grey;
+
+  &__item {
+    width: 350px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    &--left {
+      grid-column: 1/2 ;
+    }
+    &--right {
+      grid-column: 2/3 ;
+    }
+  }
+  &__image {
+    width: 100px;
+  }
+  &__text {
+    & p {
+      margin-top: 10px;
+    }
+  }
+  &__link {    
+    margin-bottom: 20px;
+    text-decoration: none;
+    font-weight: 700;
+    color: $color-dark;
+    border-bottom: 1px solid $color-dark;
+
+    &:hover {
+      padding-right: 10px;
+      border-bottom: 1px solid $color-primary;
+    }
+  }
+}
