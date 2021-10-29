@@ -1,0 +1,43 @@
+.presentation{ 
+  @include gray-head-section;
+
+  &__container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 2fr;
+    column-gap: 30px;
+    align-items: center;
+    @include max-width-lg-center;
+  }
+
+  &__image {
+    & img {
+      width: 100%;
+    }
+  }
+
+  &__title {
+    margin-bottom: 10px;
+  }
+}
+
+.portfolio {
+  @include grid-thirds-col-template;
+  @include max-width-lg-center;
+
+  &__title {
+    @include title-grid-container;
+  }
+}
+
+.project {
+  margin-top: 10px;
+  padding: 10px 20px;
+  
+  &__title {
+    margin-bottom: 20px;
+  }
+  &__description {
+    font-size: $sm;
+  }
+}

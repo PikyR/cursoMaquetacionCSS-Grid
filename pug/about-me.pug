@@ -1,18 +1,22 @@
 extends components/templates.pug
 
+//- about-me page
 block content
-  main.about-me 
+  main
     section.presentation
-      figure.presentation__image
-        img(src=".", alt="Mi foto")
-      .presentation__info
-        h1.presentation__title Hola! 
-        p.presentation__content Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, hic est! Error facere, possimus atque nam magnam minus dolores id?
+      .presentation__container
+        figure.presentation__image
+          img(src="assets/img/profile-pic.jpg", alt="Mi foto")
+        .presentation__info
+          h1.presentation__title Hola! &#128126;
+          p Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur eius aut expedita fugiat maiores sequi pariatur, nihil, tempora ullam repellat esse voluptas. 
     
-    section.porfolio
-      h2.porfolio__title Proyectos
-      article.proyect
-        h3.proyect__title Proyecto
-        p.proyect__description Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita tenetur minima perferendis earum cupiditate ratione, porro sapiente aliquam exercitationem doloremque ad, magnam cum, autem labore praesentium vel tempora eos excepturi?
-  //- contacto
-  //- footer
+    section.portfolio
+      h2.portfolio__title Proyectos
+      
+      +project-item
+      +project-item
+      +project-item
+
+  include components/contacts.pug
+  include components/footers.pug

@@ -5,9 +5,7 @@
 }
 
 .primary-blog {
-  width: 100%;
-  padding: 20px 50px;
-  background-color: $color-grey;
+  @include gray-head-section;
   
   &__container {
     display: grid;

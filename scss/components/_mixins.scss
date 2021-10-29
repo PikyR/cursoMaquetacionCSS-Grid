@@ -2,3 +2,24 @@
   max-width: 980px;
   margin: 0 auto;
 }
+
+@mixin gray-head-section {
+  width: 100%;
+  padding: 20px 50px;
+  background-color: $color-grey;
+}
+
+@mixin grid-thirds-col-template {
+  display: grid;  
+  grid-template-rows: 1fr auto auto auto;
+  grid-template-columns: auto auto auto;
+  padding: 0 50px 40px;
+}
+
+@mixin title-grid-container {
+  padding: 20px 0;
+  border-bottom: 1px solid $color-dark-grey;
+  text-align: center;
+  grid-row: 1;
+  grid-column: 1 / 4;
+}

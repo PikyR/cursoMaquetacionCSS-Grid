@@ -277,4 +277,52 @@ body {
   font-size: 3.5rem;
 }
 
+.presentation {
+  width: 100%;
+  padding: 20px 50px;
+  background-color: #E6E9ED;
+}
+.presentation__container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 2fr;
+  column-gap: 30px;
+  align-items: center;
+  max-width: 980px;
+  margin: 0 auto;
+}
+.presentation__image img {
+  width: 100%;
+}
+.presentation__title {
+  margin-bottom: 10px;
+}
+
+.portfolio {
+  display: grid;
+  grid-template-rows: 1fr auto auto auto;
+  grid-template-columns: auto auto auto;
+  padding: 0 50px 40px;
+  max-width: 980px;
+  margin: 0 auto;
+}
+.portfolio__title {
+  padding: 20px 0;
+  border-bottom: 1px solid #CDD2DA;
+  text-align: center;
+  grid-row: 1;
+  grid-column: 1/4;
+}
+
+.project {
+  margin-top: 10px;
+  padding: 10px 20px;
+}
+.project__title {
+  margin-bottom: 20px;
+}
+.project__description {
+  font-size: 1.4rem;
+}
+
 /*# sourceMappingURL=styles.css.map */
